@@ -3,5 +3,18 @@
 </template>
 
 <script>
-export default {};
+
+export default {
+
+	data: () => ({
+
+	}),
+
+	computed: {
+		tags () {
+			return [];
+		}
+	}
+
+};
 </script>
