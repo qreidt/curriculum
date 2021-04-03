@@ -1,6 +1,6 @@
 <template>
 	<div class="flex flex-col md:flex-row h-screen">
-		<div class="z-0 flex flex-row w-full md:w-auto bg-gray-50 dark:bg-gray-800 w-1/3 p-4 border-r dark:border-gray-500 border-opacity-60 shadow-xl">
+		<div class="z-0 flex flex-row w-full md:w-auto bg-gray-100 dark:bg-gray-800 w-1/3 p-4 md:pr-2.5 md:pb-0 border-r dark:border-gray-500 border-opacity-60 shadow-xl">
 			<div class="flex flex-col w-full space-y-5">
 				<div class="flex flex-row flex-none items-center justify-between">
 					<a class="flex flex-row items-center dark:text-gray-100 font-semibold" @click="open = !open">
@@ -11,11 +11,11 @@
 						</div>
 					</a>
 
-					<button v-if="dark" class="cursor-pointer bg-gray-700 text-gray-50 rounded px-2 py-1 text-xs hover:bg-gray-100 hover:text-gray-700 focus:outline-none" @click="changeTheme">
-						<i class="fa fa-sm fa-sun" /> Light Mode
+					<button v-if="dark" class="cursor-pointer bg-gray-700 font-semibold text-gray-50 rounded px-2 py-1 text-xs hover:bg-gray-100 hover:text-gray-700 focus:outline-none" @click="changeTheme">
+						<i class="fa fa-sm fa-sun mr-2" /> Light Mode
 					</button>
-					<button v-else class="cursor-pointer bg-gray-100 rounded px-2 py-1 text-xs hover:bg-gray-700 hover:text-yellow-400 focus:outline-none" @click="changeTheme">
-						<i class="fa fa-sm fa-moon" /> Dark Mode
+					<button v-else class="cursor-pointer bg-gray-200 font-semibold rounded px-2 py-1 text-xs hover:bg-gray-700 hover:text-yellow-400 focus:outline-none" @click="changeTheme">
+						<i class="fa fa-sm fa-moon mr-2" /> Dark Mode
 					</button>
 				</div>
 
@@ -33,7 +33,7 @@
 			</div>
 		</div>
 
-		<Nuxt class="w-full md:w-2/3 flex flex-row flex-col px-5 md:px-16 pt-8 md:pt-20 overflow-y-auto pb-10 text-gray-600 dark:bg-gray-700 dark:text-gray-200" />
+		<Nuxt class="w-full flex flex-row flex-col flex-grow px-5 md:px-16 pt-8 md:pt-20 overflow-y-auto pb-10 bg-gray-50 text-gray-600 dark:bg-gray-700 dark:text-gray-200" />
 
 	</div>
 </template>
@@ -53,27 +53,83 @@ export default {
 		items: [
 			{
 				active: false,
-				uppertext: 'May 5',
-				title: 'Visual Inspiration',
-				subtext: 'Let\'s collect inspiration for our truck and menu designs',
-				tags: ['tagname', 'foodtruck', 'design', 'menu', 'plan', 'share'],
-				url: '/visual-inspiration'
+				uppertext: 'Sobre mim',
+				title: 'Quem sou',
+				subtext: 'Olá, meu nome é Caio Quincoses Reidt e se você está aqui, provavelmente deve estar procurando me conhecer melhor, então vou tentar resumir meu perfil da melhor maneira possível nesta página.',
+				tags: ['Resumo'],
+				url: '/about-me'
 			},
 			{
 				active: false,
-				uppertext: 'May 5',
-				title: 'Locations',
-				subtext: '@Steve @Julia - here are sone ideas I have for potential locations. We\'ll need to check with the city to make sure we can park the truck to extended periods of time. I have a call next week to learn more about the policies',
-				tags: ['tagname', 'foodtruck', 'design', 'menu', 'plan'],
-				url: '/locations'
+				uppertext: 'Onde Trabalhei',
+				title: 'Fundação Cultural Cassiano Ricardo',
+				subtext: '',
+				tags: ['2016', '2018', 'Estágio', 'Suporte', 'Desenvolvimento'],
+				url: '/fccr'
 			},
 			{
 				active: false,
-				uppertext: 'May 5',
-				title: 'Business Plan',
-				subtext: 'I Wanted to create a note to track our business plan and some to-dos',
-				tags: ['tagname', 'foodtruck', 'design', 'menu'],
-				url: '/business-plan'
+				uppertext: 'Onde Trabalhei',
+				title: 'TIVIT',
+				subtext: '',
+				tags: ['2018', '2019', 'Suporte I', 'Atendimento'],
+				url: '/tivit'
+			},
+			{
+				active: false,
+				uppertext: 'Onde Trabalhei',
+				title: 'Garnon',
+				subtext: '',
+				tags: ['2019', 'atualmente', 'Fullstack'],
+				url: '/garnon'
+			},
+			{
+				active: false,
+				uppertext: 'Experiência profissional com ferramentas',
+				title: 'Laravel',
+				subtext: '',
+				tags: ['PHP', 'Backtend', 'Frontend'],
+				url: '/laravel'
+			},
+			{
+				active: false,
+				uppertext: 'Experiência profissional com ferramentas',
+				title: 'AdonisJs',
+				subtext: '',
+				tags: ['JavaScript', 'Backtend', 'Frontend'],
+				url: '/adonis'
+			},
+			{
+				active: false,
+				uppertext: 'Experiência profissional com ferramentas',
+				title: 'VueJs',
+				subtext: '',
+				tags: ['JavaScript', 'Frontend'],
+				url: '/vuejs'
+			},
+			{
+				active: false,
+				uppertext: 'Educação',
+				title: 'Colégio Técnico Opção',
+				subtext: '',
+				tags: ['Informática', '2013', '2016'],
+				url: '/cto'
+			},
+			{
+				active: false,
+				uppertext: 'Educação',
+				title: 'UNIP',
+				subtext: '',
+				tags: ['ciência da computação', '2017', '2020'],
+				url: '/unip'
+			},
+			{
+				active: false,
+				uppertext: 'Outros',
+				title: 'Outras Habilidades',
+				subtext: '',
+				tags: ['python', 'c++', 'elixir'],
+				url: '/more'
 			}
 		]
 	}),
@@ -122,7 +178,23 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+
+::-webkit-scrollbar {
+	width: 0.5rem;
+	height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background: rgba(211, 211, 211, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #d3d3d3;
+}
+
 .menu-items {
 	animation: items-down .15s ease;
 }
@@ -144,6 +216,16 @@ export default {
 
 .chevron[data-open=true] {
 	transform: rotate(90deg);
+}
+
+.content-table {
+	border-collapse: separate;
+	border-spacing: 0 1rem;
+}
+
+.content-table tr td:first-child {
+	width: 1%;
+	white-space: nowrap;
 }
 
 </style>

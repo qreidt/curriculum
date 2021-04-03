@@ -12,7 +12,7 @@
 
 		<hr class="my-5" />
 
-		<div class="space-y-4">
+		<div class="space-y-2">
 			<div class="font-light text-lg">
 				Let’s collect inspiration for our truck and menu designs!
 			</div>
@@ -22,10 +22,10 @@
 			</div>
 
 			<div class="flex flex-grow h-96 overflow-x-auto space-x-4 mb-4">
-				<img class="object-contain float-left" src="https://images.unsplash.com/photo-1611744314001-6f555577e8f4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1300&q=80" alt="img1" />
-				<img class="object-contain float-left" src="https://images.unsplash.com/photo-1611396000732-f8c9a933424f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80" alt="img2" />
-				<img class="object-contain float-left" src="https://images.unsplash.com/photo-1612094264491-73d6c8758510?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80" alt="img3" />
-				<img class="object-contain float-left" src="https://images.unsplash.com/photo-1471666875520-c75081f42081?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1438&q=80" alt="img4" />
+				<img class="object-contain float-left max-w-none" src="https://images.unsplash.com/photo-1611744314001-6f555577e8f4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1300&q=80" alt="img1" />
+				<img class="object-contain float-left max-w-none" src="https://images.unsplash.com/photo-1611396000732-f8c9a933424f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80" alt="img2" />
+				<img class="object-contain float-left max-w-none" src="https://images.unsplash.com/photo-1612094264491-73d6c8758510?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80" alt="img3" />
+				<img class="object-contain float-left max-w-none" src="https://images.unsplash.com/photo-1471666875520-c75081f42081?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1438&q=80" alt="img4" />
 			</div>
 
 			<div class="font-light text-lg">
@@ -60,9 +60,9 @@
 			</div>
 
 			<div class="flex flex-grow h-96 overflow-x-auto space-x-4 mb-4">
-				<img class="object-contain float-left" src="https://images.unsplash.com/photo-1611532736419-bfe35e04dd78?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="img1" />
-				<img class="object-contain float-left" src="https://images.unsplash.com/photo-1608699565448-9492aaf3c708?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1420&q=80" alt="img2" />
-				<img class="object-contain float-left" src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1346&q=80" alt="img3" />
+				<img class="object-contain float-left max-w-none" src="https://images.unsplash.com/photo-1611532736419-bfe35e04dd78?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="img1" />
+				<img class="object-contain float-left max-w-none" src="https://images.unsplash.com/photo-1608699565448-9492aaf3c708?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1420&q=80" alt="img2" />
+				<img class="object-contain float-left max-w-none" src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1346&q=80" alt="img3" />
 			</div>
 
 		</div>
