@@ -48,7 +48,7 @@ export default {
 		open: true,
 
 		// profile_image_path: 'https://ui-avatars.com/api/?name=Caio+Reidt&bold=true&size=128&rounded=true&background=FFB74D',
-		profile_image_path: 'https://scontent.fsjk1-1.fna.fbcdn.net/v/t1.0-9/104578761_10215856208749652_3950952467235166773_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_ohc=coFppHRRD6gAX_3e4ZT&_nc_ht=scontent.fsjk1-1.fna&oh=1033be7dcd8b9a3c89879909c1977144&oe=60466B35',
+		profile_image_path: '/profile.jpg',
 
 		items: [
 			{
@@ -134,6 +134,14 @@ export default {
 		]
 	}),
 
+	head () {
+		return {
+			htmlAttrs: {
+				class: this.dark ? 'dark' : ''
+			}
+		};
+	},
+
 	computed: {
 		activeItem () {
 			const activeItem = this.items.find(item => item.active);
@@ -165,14 +173,6 @@ export default {
 
 			this.open = false;
 		}
-	},
-
-	head () {
-		return {
-			htmlAttrs: {
-				class: this.dark ? 'dark' : ''
-			}
-		};
 	}
 
 };

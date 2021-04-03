@@ -1,7 +1,7 @@
 <template>
 	<div
 		class="block cursor-pointer p-4 space-y-2 border-b dark:text-gray-100"
-		:class="active && 'bg-orange-400 bg-opacity-20' || 'hover:bg-gray-100 dark:hover:bg-gray-900'"
+		:class="active && 'bg-blue-400 bg-opacity-20' || 'hover:bg-gray-100 dark:hover:bg-gray-900'"
 		@click="click(index)"
 	>
 		<div class="flex flex-row">

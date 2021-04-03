@@ -1,5 +1,5 @@
 <template>
-	<div class="text-xs bg-orange-100 text-orange-400 py-0.5 px-1 rounded uppercase">#{{ text }}</div>
+	<div class="text-xs bg-blue-100 text-blue-400 py-0.5 px-1 rounded uppercase">#{{ text }}</div>
 </template>
 
 <script>
