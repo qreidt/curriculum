@@ -106,18 +106,53 @@
 
 			<p>
 				<span class="ml-10">Comecei</span> a me interessar pela área de informática em 2013 quando comecei a
-				cursar um curso de informática pelo <router-link to="/cto" class="underline">Colégio Técnico Opção</router-link>.
+				cursar um curso de informática pelo <router-link to="/cto" class="underline text-blue-600">Colégio Técnico Opção</router-link>.
 				Neste curso técnico aprendi sobre informática em geral com uma grande ênfase em programação,
 				principalmente PHP. Antes de finalizar o curso técnico, fui contratado pela
-				<router-link to="/cto" class="underline">Fundação Cultural Cassiano Ricardo (FCCR)</router-link>
+				<router-link to="/cto" class="underline text-blue-600">Fundação Cultural Cassiano Ricardo (FCCR)</router-link>
 				como estagiário e onde inicialmente deveria realizar a manutenção de computadores, redes e serviços
 				como servidores de telefonia, de e-mail, de VPN e intranet. Após alguns meses exercendo esta função,
 				a meu pedido, fui movido para a equipe de desenvolvimento onde deveria contribuir com o desenvolvimento
 				de aplicações WEB.
 			</p>
 
+			<p>
+				<span class="ml-10">Quando</span> finalizei meu ensino técnico decidi seguir na área de informática e
+				conseguir um bacharelado pela faculdade <router-link to="/cto" class="underline text-blue-600">UNIP</router-link>.
+				Como planejava seguir uma carreira na área de programação, decidi escolher o curso de Ciência da Computação
+				sobre Engenharia da Computação pela engenharia não conter tantos assuntos aprofundados sobre computação em si.
+				Comecei o curso em janeiro de 2017 e o finalizei em dezembro de 2020 inclusive quanhando um prêmio de primeiro
+				lugar na olimpíada de progamação em que participei.
+			</p>
+
+			<p>
+				<span class="ml-10">Após</span> Realizar 1 ano e 6 mêses de estágio, fui contratado em fevereiro de 2018
+				como Analista de Suporte Nível 1 pela <router-link to="/cto" class="underline text-blue-600">TIVIT</router-link>.
+				Neste cargo, inicialmente recebi a tarefa de atender e solucionar os problemas de colaboradores do Banco
+				Itaú referentes à problemas de informática via telefone. Estes problemas poderiam variar desde problemas
+				simples como falhas no Outlook ou conexões com impressoras, até problemas com conexões de VPN, e direcionar
+				o colaborador para um atendimento no local por um Suporte Nível 2. Após alguns meses atuando neste suporte,
+				fui redesignado para atender o alto escalão do Banco Itaú (provalmente pela minha capacidade de lidar com
+				problemas de forma calma mesmo sobre pressão) e além deste suporte de computadores, fiquei encarregado também
+				do suporte para telefones celulares e reuniões de vídeo conferência (atendimento necessário por existir
+				equipamento especializado para esta função).
+			</p>
+
+			<p>
+				<span class="ml-10">Como</span> um cargo como Desenvolvedor sempre foi uma prioridade para mim, em
+				fevereiro de 2019, deixei meu cargo como Analista de Suporte para trabalhar como um Desenvolvedor Web
+				em uma startup chamada <router-link to="/garnon" class="underline text-blue-600">Garnon</router-link>.
+				Nesta empresa sempre foi utilizado o Framework <router-link to="/garnon" class="underline text-blue-600">Laravel</router-link>
+				ferramenta que dominei em apenas alguns mêses e continuei aperfeiçoando meu conhecimento. Após alguns
+				meses de empresa também, foi-se decidido trocar o uso da biblioteca JQuery para utilizar o Framework
+				<router-link to="/garnon" class="underline text-blue-600">VueJS</router-link>, ferramenta que também
+				dominei com o passar do tempo. Com o passar do tempo, fui sendo capaz também de lidar com tarefas complexas
+				como integração com gateways de pagamento, integração com serviços de emissão de notas fiscais e implementação
+				de serviços de streaming.
+			</p>
+
 			<div>
-				<span class="ml-10">Sou</span> um desenvolvedor Fullstack pela Garnon e minhas responsábilidades incluem:
+				<span class="ml-10">Hoje</span>, sou um desenvolvedor Fullstack pela Garnon e minhas responsábilidades incluem:
 				<ul class="list-disc ml-6 mt-2">
 					<li>Desenvolver APIs REST</li>
 					<li>Desenvolver arquiteturas de interface de sistema</li>
