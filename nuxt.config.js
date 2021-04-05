@@ -1,7 +1,11 @@
 export default {
+
+	// Nuxt Deployment Target: https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-target
+	target: 'static',
+
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: 'curriculum',
+		title: 'Caio Reidt',
 		htmlAttrs: {
 			lang: 'en'
 		},

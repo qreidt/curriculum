@@ -4,7 +4,14 @@
 			<div class="flex flex-col w-full space-y-5">
 				<div class="flex flex-row flex-none items-center justify-between">
 					<a class="flex flex-row items-center dark:text-gray-100 font-semibold" @click="open = !open">
-						<img :src="profile_image_path" alt="profile_image" class="rounded-full w-8 h-8" />
+						<img
+							:src="profile_image_path"
+							alt="profile_image"
+							class="rounded-full w-8 h-8"
+							loading="lazy"
+							width="32"
+							height="32"
+						/>
 						<h1 class="text-2xl ml-2">Caio Reidt</h1>
 						<div class="text-xl block md:hidden ml-3">
 							<i class="chevron fa fa-chevron-right" :data-open="open" />

@@ -105,7 +105,7 @@
 				best way I can. Also, I have distributed links that take to another page, listed on the menu on the right,
 				for a more profound explanation on the topics I judged more interesting for your understanding about me.
 				If you want to see the source code for the page you are reading now, you can find it
-				<a href="https://github.com/qreidt/curriculum" class="underline text-primary-400" target="_blank">here</a>
+				<a href="https://github.com/qreidt/my-bio" class="underline text-primary-400" target="_blank">on its github page</a>
 			</p>
 
 			<p>
