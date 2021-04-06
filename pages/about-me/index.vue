@@ -9,81 +9,81 @@
 		<div class="space-y-3">
 
 			<div>
-				<span class="font-bold text-gray-600">
+				<span class="font-bold text-gray-600 dark:text-gray-200">
 					My Name:
-					<span class="font-semibold ml-2 text-gray-500">
+					<span class="font-semibold ml-2 text-gray-500 dark:text-gray-100">
 						Caio Quincoses Reidt
 					</span>
 				</span>
 			</div>
 
 			<div>
-				<span class="font-bold text-gray-600">
+				<span class="font-bold text-gray-600 dark:text-gray-200">
 					Nationality:
-					<span class="font-semibold ml-2 text-gray-500">
+					<span class="font-semibold ml-2 text-gray-500 dark:text-gray-100">
 						American/Brazilian
 					</span>
 				</span>
 			</div>
 
 			<div>
-				<span class="font-bold text-gray-600">
+				<span class="font-bold text-gray-600 dark:text-gray-200">
 					Current Position:
-					<span class="font-semibold ml-2 text-gray-500">
+					<span class="font-semibold ml-2 text-gray-500 dark:text-gray-100">
 						Full Stack Developer at Garnon
 					</span>
 				</span>
 			</div>
 
 			<div>
-				<span class="font-bold text-gray-600">
+				<span class="font-bold text-gray-600 dark:text-gray-200">
 					E-mail:
-					<span class="font-semibold ml-2 text-gray-500">
+					<span class="font-semibold ml-2 text-gray-500 dark:text-gray-100">
 						caioreidt@gmail.com
 					</span>
 				</span>
 			</div>
 
 			<div>
-				<span class="font-bold text-gray-600">
+				<span class="font-bold text-gray-600 dark:text-gray-200">
 					Cell phone:
-					<span class="font-semibold ml-2 text-gray-500">
+					<span class="font-semibold ml-2 text-gray-500 dark:text-gray-100">
 						+55 12 98868-2858
 					</span>
 				</span>
 			</div>
 
 			<div>
-				<span class="font-bold text-gray-600">
+				<span class="font-bold text-gray-600 dark:text-gray-200">
 					Address:
-					<span class="font-semibold ml-2 text-gray-500">
+					<span class="font-semibold ml-2 text-gray-500 dark:text-gray-100">
 						Vista Verde - São José dos Campos - Brasil
 					</span>
 				</span>
 			</div>
 
 			<div>
-				<span class="font-bold text-gray-600">
+				<span class="font-bold text-gray-600 dark:text-gray-200">
 					Birth date:
-					<span class="font-semibold ml-2 text-gray-500">
+					<span class="font-semibold ml-2 text-gray-500 dark:text-gray-100">
 						14/08/1998
 					</span>
 				</span>
 			</div>
 
 			<div>
-				<span class="font-bold text-gray-600">
+				<span class="font-bold text-gray-600 dark:text-gray-200">
 					Github:
-					<a href="https://github.com/qreidt" target="_blank" class="underline font-semibold ml-2 text-gray-500">
+					<a href="https://github.com/qreidt" target="_blank" class="underline font-semibold ml-2 text-gray-500 dark:text-gray-100">
 						github.com/qreidt
 					</a>
 				</span>
 			</div>
 
 			<div>
-				<span class="font-bold text-gray-600">
+				<span class="font-bold text-gray-600 dark:text-gray-200">
 					Spoken Languages:
-					<span class="font-semibold ml-2 text-gray-500">
+					<span class="font-semibold ml-2 text-gray-500 dark:text-gray-100">
 						Portuguese, English
 					</span>
 				</span>
@@ -105,7 +105,7 @@
 				best way I can. Also, I have distributed links that take to another page, listed on the menu on the right,
 				for a more profound explanation on the topics I judged more interesting for your understanding about me.
 				If you want to see the source code for the page you are reading now, you can find it
-				<a href="https://github.com/qreidt/my-bio" class="underline text-primary-400" target="_blank">on its github page</a>
+				<a href="https://github.com/qreidt/my-bio" class="underline text-primary-400" target="_blank">on it's github page</a>
 			</p>
 
 			<p>

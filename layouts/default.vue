@@ -60,39 +60,55 @@ export default {
 		items: [
 			{
 				active: false,
-				uppertext: 'Sobre mim',
-				title: 'Quem sou',
-				subtext: 'Olá, meu nome é Caio Quincoses Reidt e se você está aqui, provavelmente deve estar procurando me conhecer melhor, então vou tentar resumir meu perfil da melhor maneira possível nesta página.',
-				tags: ['Resumo'],
+				uppertext: 'About Me',
+				title: 'Who is Caio',
+				subtext: 'Hi, my name is Caio Quincoses Reidt, and if you are here, you probably are looking to know me better as a professional, so I will try to summarize my profile on this page in the best way I can.',
+				tags: ['Main', 'History', 'Education', 'Work', 'Learning'],
 				url: '/about-me'
 			},
 			{
 				active: false,
-				uppertext: 'Onde Trabalhei',
-				title: 'Fundação Cultural Cassiano Ricardo',
-				subtext: '',
-				tags: ['2016', '2018', 'Estágio', 'Suporte', 'Desenvolvimento'],
+				uppertext: 'Work',
+				title: 'Cassiano Ricardo Cultural Foundation',
+				subtext: 'Founded on March 20, the Cassiano Ricardo Cultural Foundation was created with the intent to foster cultural actions in the city and enable the citizen of São José dos Campos to have access to culture, a fundamental path to human development.',
+				tags: ['2016', '2018', 'Internship', 'Support', 'Development'],
 				url: '/fccr'
 			},
 			{
 				active: false,
-				uppertext: 'Onde Trabalhei',
+				uppertext: 'Work',
 				title: 'TIVIT',
 				subtext: '',
-				tags: ['2018', '2019', 'Suporte I', 'Atendimento'],
+				tags: ['2018', '2019', 'Level-1 Support'],
 				url: '/tivit'
 			},
 			{
 				active: false,
-				uppertext: 'Onde Trabalhei',
+				uppertext: 'Work',
 				title: 'Garnon',
 				subtext: '',
-				tags: ['2019', 'atualmente', 'Fullstack'],
+				tags: ['2019', 'Now', 'Full-stack', 'Development'],
 				url: '/garnon'
 			},
 			{
 				active: false,
-				uppertext: 'Experiência profissional com ferramentas',
+				uppertext: 'Education',
+				title: 'Opção Technical College',
+				subtext: '',
+				tags: ['Computing', '2013', '2016'],
+				url: '/cto'
+			},
+			{
+				active: false,
+				uppertext: 'Education',
+				title: 'UNIP',
+				subtext: '',
+				tags: ['Computer Science', 'Bachelor', '2017', '2020'],
+				url: '/unip'
+			},
+			{
+				active: false,
+				uppertext: 'Work Experience',
 				title: 'Laravel',
 				subtext: '',
 				tags: ['PHP', 'Backtend', 'Frontend'],
@@ -100,43 +116,19 @@ export default {
 			},
 			{
 				active: false,
-				uppertext: 'Experiência profissional com ferramentas',
-				title: 'AdonisJs',
+				uppertext: 'Work Experience',
+				title: 'AdonisJS',
 				subtext: '',
 				tags: ['JavaScript', 'Backtend', 'Frontend'],
 				url: '/adonis'
 			},
 			{
 				active: false,
-				uppertext: 'Experiência profissional com ferramentas',
-				title: 'VueJs',
+				uppertext: 'Work Experience',
+				title: 'VueJS',
 				subtext: '',
 				tags: ['JavaScript', 'Frontend'],
 				url: '/vuejs'
-			},
-			{
-				active: false,
-				uppertext: 'Educação',
-				title: 'Colégio Técnico Opção',
-				subtext: '',
-				tags: ['Informática', '2013', '2016'],
-				url: '/cto'
-			},
-			{
-				active: false,
-				uppertext: 'Educação',
-				title: 'UNIP',
-				subtext: '',
-				tags: ['ciência da computação', '2017', '2020'],
-				url: '/unip'
-			},
-			{
-				active: false,
-				uppertext: 'Outros',
-				title: 'Outras Habilidades',
-				subtext: '',
-				tags: ['python', 'c++', 'elixir'],
-				url: '/more'
 			}
 		]
 	}),
