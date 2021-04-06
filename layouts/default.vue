@@ -78,7 +78,7 @@ export default {
 				active: false,
 				uppertext: 'Work',
 				title: 'TIVIT',
-				subtext: '',
+				subtext: 'TIVIT is a Brazilian multinational specialized in digital solutions, with operations in 10 Latin American countries and in 2016, was considered one of the three largest information technology service providers in Brazil.',
 				tags: ['2018', '2019', 'Level-1 Support'],
 				url: '/tivit'
 			},

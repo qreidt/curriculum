@@ -83,7 +83,8 @@
 
 			<p>
 				<span class="ml-10">After</span> a few months, I asked to go over to the Development Team, which was
-				responsible for handling the company's institutional page using PHP,  Joomla, and JQuery.
+				responsible for handling the company's institutional page using PHP,  Joomla, and JQuery, while also
+				creating new Python scripts for automation.
 			</p>
 		</div>
 	</div>
@@ -91,17 +92,23 @@
 
 <script>
 
+import MenuItemTag from '../../components/MenuItemTag';
+
 export default {
+
+	components: {
+		'menu-item-tag': MenuItemTag
+	},
+
+	data: () => ({
+
+	}),
 
 	head () {
 		return {
 			title: 'Caio Reidt - Cassiano Ricardo Cultural Foundation'
 		};
 	},
-
-	data: () => ({
-
-	}),
 
 	computed: {
 		tags () {

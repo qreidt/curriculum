@@ -243,7 +243,13 @@
 
 <script>
 
+import MenuItemTag from '../../components/MenuItemTag';
+
 export default {
+
+	components: {
+		'menu-item-tag': MenuItemTag
+	},
 
 	data: () => ({}),
 
