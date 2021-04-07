@@ -86,7 +86,7 @@ export default {
 				active: false,
 				uppertext: 'Work',
 				title: 'Garnon',
-				subtext: '',
+				subtext: 'Garnon is a startup that started in 2018, offering platforms for companies to better manage their businesses and grow bigger. The company\'s rule to get new clients have always been "Only take new clients as long as our relationship can be of investment and not cost.".',
 				tags: ['2019', 'Now', 'Full-stack', 'Development'],
 				url: '/garnon'
 			},
@@ -105,31 +105,31 @@ export default {
 				subtext: '',
 				tags: ['Computer Science', 'Bachelor', '2017', '2020'],
 				url: '/unip'
-			},
-			{
-				active: false,
-				uppertext: 'Work Experience',
-				title: 'Laravel',
-				subtext: '',
-				tags: ['PHP', 'Backtend', 'Frontend'],
-				url: '/laravel'
-			},
-			{
-				active: false,
-				uppertext: 'Work Experience',
-				title: 'AdonisJS',
-				subtext: '',
-				tags: ['JavaScript', 'Backtend', 'Frontend'],
-				url: '/adonis'
-			},
-			{
-				active: false,
-				uppertext: 'Work Experience',
-				title: 'VueJS',
-				subtext: '',
-				tags: ['JavaScript', 'Frontend'],
-				url: '/vuejs'
 			}
+			// {
+			// 	active: false,
+			// 	uppertext: 'Work Experience',
+			// 	title: 'Laravel',
+			// 	subtext: '',
+			// 	tags: ['PHP', 'Backend', 'Frontend'],
+			// 	url: '/laravel'
+			// },
+			// {
+			// 	active: false,
+			// 	uppertext: 'Work Experience',
+			// 	title: 'AdonisJS',
+			// 	subtext: '',
+			// 	tags: ['JavaScript', 'Backend', 'Frontend'],
+			// 	url: '/adonis'
+			// },
+			// {
+			// 	active: false,
+			// 	uppertext: 'Work Experience',
+			// 	title: 'VueJS',
+			// 	subtext: '',
+			// 	tags: ['JavaScript', 'Frontend'],
+			// 	url: '/vuejs'
+			// }
 		]
 	}),
 
