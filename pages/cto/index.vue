@@ -47,7 +47,7 @@
 		<div class="space-y-7 md:space-y-10 text-justify font-normal text-lg md:text-xl">
 
 			<p>
-				<span class="ml-10">The</span> Colégio Técnico Opção was opened in 2003 with the challenge of offering
+				<span class="ml-10">The</span> Opção Technical College was opened in 2003 with the challenge of offering
 				students high-level professional technical training, carried out in line with the job market. Partnerships
 				with companies, workshops, events, lectures, extracurricular activities and thematic groups are some of
 				the tools created within the school that seek the training of students for the corporate world.
@@ -83,7 +83,7 @@ export default {
 
 	head () {
 		return {
-			title: 'Caio Reidt - Garnon'
+			title: 'Caio Reidt - Opção Technical College'
 		};
 	},
 

@@ -102,7 +102,7 @@ export default {
 				active: false,
 				uppertext: 'Education',
 				title: 'UNIP',
-				subtext: '',
+				subtext: 'The Paulista University, UNIP started operations on November 09th, 1988. It was established based on the Paulista Unified Institute (Instituto Unificado Paulista – IUP), and the Paulista Engineering Teaching Institute (Instituto de Ensino de Engenharia Paulista – IEEP). Thanks to its development since then, UNIP, through a modern academic proposal, has been expanding its activities to many different campuses, seeking to prepare highly qualified human resources as requested by the policies of national development.',
 				tags: ['Computer Science', 'Bachelor', '2017', '2020'],
 				url: '/unip'
 			}
