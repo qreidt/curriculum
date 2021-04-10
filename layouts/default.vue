@@ -94,7 +94,7 @@ export default {
 				active: false,
 				uppertext: 'Education',
 				title: 'Opção Technical College',
-				subtext: '',
+				subtext: 'The Colégio Technical College was opened in 2003 with the challenge of offering students high-level professional technical training, carried out in line with the job market. Partnerships with companies, workshops, events, lectures, extracurricular activities, and thematic groups are some of the tools created within the school that seek the training of students for the corporate world.',
 				tags: ['Computing', '2013', '2016'],
 				url: '/cto'
 			},
