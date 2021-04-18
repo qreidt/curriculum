@@ -56,9 +56,9 @@
 		<div class="space-y-7 md:space-y-10 text-justify font-normal text-lg md:text-xl">
 
 			<p>
-				<span class="ml-10">Founded</span> on March 20, the Cassiano Ricardo Cultural Foundation was created
-				with the intent to foster cultural actions in the city and enable the citizen of São José dos Campos
-				to have access to culture, a fundamental path to human development.
+				<span class="ml-10">Founded</span> on March 20<sup>th</sup>, 1986, the Cassiano Ricardo Cultural Foundation
+				was created with the intent to foster cultural actions in the city and enable the citizen of São José
+				dos Campos to have access to culture, a fundamental path to human development.
 			</p>
 
 			<div class="flex flex-grow h-96 overflow-x-auto space-x-4 mb-4">
@@ -68,9 +68,9 @@
 
 			<div>
 				<p>
-					<span class="ml-10">My</span> function as an intern was to solve problems on employee's computers (like
-					"It won't turn on" or "My printer is not working"). Also, I had to work on managing many servers, which
-					were:
+					<span class="ml-10">My</span> function as an intern was to solve problems on employee's computers
+					(such as "It won't turn on" or "My printer is not working"). Also, I had to work on managing many
+					servers, which were:
 				</p>
 				<ul class="list-disc ml-10 mt-2">
 					<li><b>Asterisk</b>: responsible for the company's virtual telephone lines;</li>
